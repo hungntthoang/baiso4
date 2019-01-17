@@ -1,0 +1,412 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #282828;
+}
+
+/*# sourceMappingURL=style.css.map */
+.wapper {
+  width: 1122px;
+  margin: auto;
+  background: white;
+}
+
+.header {
+  position: relative;
+  border-top: 7px solid #7e5c88;
+}
+
+.nav-menu {
+  align-items: baseline;
+  height: 125px;
+}
+
+.logo-header {
+  width: 32%;
+  padding: 47px 0 0 20px;
+}
+
+.logo-header {
+  float: left;
+}
+.logo-header h1 {
+  cursor: pointer;
+  font-weight: normal;
+  padding-bottom: 11px;
+  font-size: 40px;
+  color: #7e5c88;
+}
+.logo-header p {
+  font-size: 15px;
+  opacity: 0.5;
+  font-family: SourceSerifPro;
+}
+
+.menu-header {
+  width: 68%;
+  height: 110px;
+  float: left;
+}
+.menu-header li {
+  float: left;
+  display: block;
+  color: black;
+  padding: 65px 20px 38px 24px;
+}
+.menu-header a {
+  font-family: "Nanum+Myeongjo";
+  opacity: 0.6;
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+.menu-header .menu-home {
+  background: #7e5c88;
+}
+.menu-header .menu-home a {
+  opacity: 1;
+  color: white;
+}
+.menu-header li:hover:not(.menu-home) {
+  cursor: pointer;
+  background: #7e5c88;
+}
+.menu-header li:hover a {
+  text-decoration: underline;
+  opacity: 1;
+  color: white;
+}
+
+.hero-slider-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding-left: 22px;
+  top: 55%;
+  transform: translateY(calc(-50% + 30px));
+  cursor: pointer;
+}
+
+.hero-slider-right {
+  padding-right: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding-left: 22px;
+  top: 55%;
+  right: 0;
+  transform: translateY(calc(-50% + 30px));
+  cursor: pointer;
+}
+
+.hero-main {
+  width: 950px;
+  margin: auto;
+  height: 600px;
+}
+
+.hero-left {
+  padding-top: 150px;
+  width: 50%;
+  float: left;
+}
+.hero-left h1 {
+  font-family: "Libre+Baskerville";
+  font-size: 48px;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+.hero-left p {
+  font-size: 15px;
+  opacity: 0.5;
+  font-family: SourceSerifPro;
+  width: 71%;
+  padding-bottom: 20px;
+}
+.hero-left button {
+  font-size: 15px;
+  font-family: SourceSerifPro;
+  padding: 10px 15px;
+  background: #7e5c88;
+  color: white;
+  font-weight: normal;
+  border-radius: 23px;
+  cursor: pointer;
+}
+
+.hero-right {
+  top: 28%;
+  position: absolute;
+  left: 51%;
+  width: 50%;
+  float: left;
+}
+.hero-right .small-circle {
+  margin: auto;
+  line-height: 400px;
+  width: 400px;
+  height: 400px;
+  background: #333333;
+  border-radius: 50%;
+}
+.hero-right .small-circle p {
+  text-align: center;
+  color: white;
+  line-height: 380px;
+  font-size: 20px;
+}
+.hero-right .big-circle {
+  padding-top: 30px;
+  width: 460px;
+  height: 460px;
+  background: #7e5c88;
+  border-radius: 50%;
+}
+
+.horizontal-line img {
+  width: 100%;
+}
+
+.sidebar {
+  width: 1070px;
+  margin: auto;
+}
+.sidebar .event-content {
+  padding-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+.sidebar .event-content .event-content-main {
+  width: 270px;
+  height: 350px;
+  background: #eeeeee;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.sidebar .event-content .event-content-main:hover {
+  background: #7e5c88;
+}
+.sidebar .event-content .event-content-main:hover h3 {
+  color: white;
+}
+.sidebar .event-content .event-content-main:hover div span {
+  color: white;
+  opacity: 1;
+}
+.sidebar .event-content .event-content-main h3 {
+  font-size: 15px;
+  padding: 14px 0;
+  text-align: center;
+}
+.sidebar .event-content .event-content-main .content-main {
+  font-weight: normal;
+  height: 260px;
+  background: #333333;
+  text-align: center;
+  color: white;
+  line-height: 260px;
+  font-size: 20px;
+}
+.sidebar .event-content .event-content-main div {
+  text-align: center;
+  padding-top: 10px;
+}
+.sidebar .event-content .event-content-main div span {
+  font-size: 14px;
+  opacity: 0.5;
+}
+.sidebar .sidebar-hero-main {
+  display: flex;
+}
+.sidebar .sidebar-hero-main .even-content-left {
+  width: 74.3%;
+}
+.sidebar .sidebar-hero-main .even-content-left .main-left {
+  margin: 0;
+}
+.sidebar .sidebar-hero-main .even-content-left .event-left {
+  background: white;
+  cursor: context-menu;
+}
+.sidebar .sidebar-hero-main .even-content-left .event-left .event-main {
+  height: 130px;
+  line-height: 95px;
+  text-align: center;
+}
+.sidebar .sidebar-hero-main .even-content-left .event-left div {
+  text-align: left;
+  padding: 20px 0;
+}
+.sidebar .sidebar-hero-main .even-content-left .event-left div h2 {
+  font-size: 17px;
+  color: #7e5c88;
+  padding-bottom: 5px;
+}
+.sidebar .sidebar-hero-main .even-content-left .event-left div p {
+  color: #979797;
+  font-size: 16px;
+}
+.sidebar .sidebar-hero-main .even-content-left .event-left div + p {
+  color: #979797;
+  font-size: 16px;
+}
+.sidebar .sidebar-hero-main .even-content-right {
+  width: 22.9%;
+  height: 300px;
+  margin-left: 30px;
+}
+.sidebar .sidebar-hero-main .even-content-right .main-right {
+  margin: 0;
+  background: white;
+  cursor: context-menu;
+}
+.sidebar .sidebar-hero-main .even-content-right .main-right:hover {
+  background: white;
+}
+.sidebar .sidebar-hero-main .even-content-right .main-right .even-right {
+  padding: 20px 0;
+  border-bottom: 1px solid #979797;
+  float: left;
+}
+.sidebar .sidebar-hero-main .even-content-right .main-right .even-right .right-event {
+  line-height: 50px;
+  font-size: 13px;
+  color: white;
+  border: 5px solid white;
+  outline: 1px solid #979797;
+  width: 70px;
+  height: 70px;
+  background: #333333;
+  float: left;
+  margin-right: 10px;
+}
+.sidebar .sidebar-hero-main .even-content-right .main-right .even-right .right-content {
+  padding-top: 0;
+  text-align: left;
+}
+.sidebar .sidebar-hero-main .even-content-right .main-right .even-right .right-content h4 {
+  color: #979797;
+}
+.sidebar .sidebar-hero-main .even-content-right .main-right .even-right .right-content p {
+  color: #979797;
+  font-size: 16px;
+  padding-bottom: 3px;
+}
+.sidebar .sidebar-hero-main .even-content-right .main-right .even-right .right-content button {
+  color: #7e5c88;
+  background: white;
+  cursor: pointer;
+}
+
+.sidebar-title {
+  margin-top: 60px;
+}
+.sidebar-title h1 {
+  padding-bottom: 10px;
+  font-family: SourceSerifPro;
+  font-size: 20px;
+  font-weight: normal;
+  border-bottom: 0.2px solid #e6e6e6;
+}
+
+.footer .footer-hero .footer-content {
+  background: white;
+  cursor: context-menu;
+}
+.footer .footer-hero .footer-content button {
+  color: #7e5c88;
+  background: white;
+  float: right;
+  padding-top: 40px;
+  cursor: pointer;
+}
+.footer .footer-hero .footer-content h2 {
+  color: #979797;
+  font-size: 17px;
+}
+.footer .footer-hero .footer-content:hover {
+  background: white;
+}
+.footer .footer-hero .footer-content div {
+  text-align: left;
+  padding: 30px 0 20px 0;
+}
+.footer .footer-hero .footer-content div h2 {
+  font-size: 17px;
+  color: #979797;
+  padding-bottom: 5px;
+}
+.footer .footer-hero .footer-content div p {
+  color: #979797;
+  font-size: 14px;
+}
+.footer .footer-hero .footer-content div ul {
+  list-style-type: none;
+}
+.footer .footer-hero .footer-content div li {
+  font-size: 15px;
+  color: #7e5c88;
+  padding: 12px 0 8px 0;
+  display: block;
+  border-bottom: 1px solid #e0e0e0;
+}
+.footer .footer-hero .footer-content div address {
+  color: #979797;
+  padding-top: 16px;
+}
+.footer .footer-hero .footer-content div + p {
+  color: #979797;
+  font-size: 16px;
+}
+.footer .footer-hero .footer-content .footer-icon li {
+  font-size: 15px;
+  color: #7e5c88;
+  padding: 14px 0 8px 0;
+  display: flex;
+  align-items: center;
+}
+.footer .footer-hero .footer-content .footer-icon li i {
+  margin-right: 10px;
+  padding: 10px;
+  background: #979797;
+  border-radius: 50%;
+  color: white;
+}
+.footer .footer-hero .footer-content .footer-icon li i:hover {
+  background: #7e5c88;
+  cursor: pointer;
+}
+.footer .footer-hero .footer-content .footer-icon li img {
+  padding-right: 10px;
+}
+.footer .footer-hero .footer-content .footer-icon li img:hover {
+  color: #7e5c88;
+}
+
+.footer-extra {
+  line-height: 35px;
+  height: 40px;
+  width: 1070px;
+  margin: auto;
+}
+.footer-extra .footer-extra-left {
+  float: left;
+  color: #979797;
+  font-size: 16px;
+}
+.footer-extra .footer-extra-right {
+  float: right;
+  color: #979797;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
